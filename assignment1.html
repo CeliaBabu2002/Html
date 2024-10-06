@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" href="assignment1.css">
+</head>
+<body>
+    <h1>Form </h1>
+<form method="post" action="URL">
+<div class="start">
+<input type="text" name="favcolour" id="favcolour"><label for ="favcolour">enter the fav colour</label><br><br>
+<input type="url" name="url" id="url"><label for="url">enter the url</label><br><br>
+<input type="number" name="number" id="number" min="3" max="100" step="1"><label for="number">enter the number of order</label><br><br>
+<input type="date" name="date" id="date" min="01-02-2017" max="01-01-2018"><label for="date">enter the dob</label><br><br>
+<input type="time" name="time" id="time"><label for="time">enter the time of pickup</label><br><br>
+<input type="tel" name="telphone" id="telphone" required><label for="telphone">enter the telphone number</label><br><br>
+</div>
+<fieldset>
+    <legend>whats your fav colour</legend>
+        <input type="radio" name="favcolour" id="favcolours"><label for="favcolours">green</label><br><br>
+        <input type="radio" name="favcolour" id="favcolours"><label for="favcolours">yellow</label><br><br>
+        <input type="radio" name="favcolour" id="favcolours"><label for="favcolours">blue</label><br><br>
+        <input type="radio" name="favcolour" id="favcolours"><label for="favcolours">red</label><br><br>
+</fieldset>
+<fieldset>
+    <legend>what is your fav place </legend>
+        <input type="checkbox" name="favplace" id="favplace"><label for="favplace">italy</label><br><br>
+        <input type="checkbox" name="favplace" id="favplace"><label for="favplace">germany</label><br><br>
+        <input type="checkbox" name="favplace" id="favplace"><label for="favplace">north pole</label><br><br>
+        <input type="checkbox" name="favplace" id="favplace"><label for="favplace">canada</label><br><br>
+</fieldset>
+<div class="end">
+<select id="food" name="food"><br><br>
+    <optgroup>fast food</optgroup>
+    <option>pizza</option>
+    <option>burger</option>
+    <optgroup>fresh food</optgroup>
+    <option>burriot bowel</option>
+    <option>acai bowel</option>
+</select>
+<label for="food">select best food</label>
+<br><br>
+<input type="color" name="color" id="color"><label for="color">select the colour</label><br><br>
+<input type="file" name="file" id="file"><label for="file">upload resume</label><br><br>
+<input type="search" name="find" id="find"><label for="find">searchfor more details</label><br><br>
+<input type="password" name="password" id="password"><label for="password">enter the password</label><br><br>
+<input type="hidden" value="124">
+<textarea id="review" name="review" ></textarea><br><br>
+<input type="submit">
+<input type="reset"><br><br>
+<button>rating</button><br><br>
+<input type="range"><br><br>
+</div>
+</body>
+</html>

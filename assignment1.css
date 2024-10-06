@@ -1,0 +1,45 @@
+body {
+    background-color: lightblue;
+    text-align: left;
+  }
+  
+button,input,select,textarea{
+  font-family: inherit;
+  font-size: 100%;
+}
+
+input,select,textarea{
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: border-box;
+}
+h1{
+  color: black;
+  text-align: center;
+  font-family: 'Times New Roman';
+  font-size: 3rem;
+}
+label{
+  border: ipx solid black;
+  padding: 5px;
+  width:6px;
+  display: auto;
+  font-size: 1.5rem;
+}
+input[type="text"]+label{
+  text-align: center;
+}
+.start{
+  text-align: center;
+}
+.end{
+  text-align: center;
+}
+input:focus{
+  border: 50px;
+  border-color: green;
+}
+input:valid{
+  border: 50px;
+  border-color: green;
+}
